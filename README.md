@@ -50,7 +50,7 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 ![Screenshot (11)](https://user-images.githubusercontent.com/72791245/96346837-1f537980-10c8-11eb-89b2-c9e8baf5ac2f.png)
 
 
-  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik. Lalu Ceklis tulisan Add ReadMe tersebut lalu klik tulisan Create Repository
+  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik. Lalu Ceklis tulisan Add a README file tersebut lalu klik tulisan Create Repository
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96346840-24182d80-10c8-11eb-85ea-c2b7cadcb2fb.png)
   
