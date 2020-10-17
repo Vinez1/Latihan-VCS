@@ -1,142 +1,78 @@
-# PENGGUNAAN GIT 
+
+### LANGKAH AWAL MENGGUNAKAN GITHUB
+
+* ### LOGIN AKUN GITHUB
+  - Bukalah Github pada situs resminya yaitu *github.com*. Setelah itu pilih menu Sign Up yang terletak pada pojok kanan atas jika memang belum mempunyai akun.
+  
+![Screenshot (2)](https://user-images.githubusercontent.com/72791245/96339873-7570ee80-10c1-11eb-9dbf-10d5845d5f73.png)
 
 
-### APA ITU GIT ?
-* Git adalah salah satu sistem pengontrol versi (Version ControlSystem) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds.
-* Pengontrol versi bertugas mencatat setiap perubahan pada fileproyek yang dikerjakan oleh banyak orang maupun sendiri.
-* Git dikenal juga dengan distributed revision control (VCS terdistribusi),artinya penyimpanan database Git tidak hanya berada dalam satutempat saja.
+  - Kemudian, isilah data & email kalian dengan benar.
+ 
+![Screenshot (4)](https://user-images.githubusercontent.com/72791245/96339886-8c174580-10c1-11eb-952c-ce3608d0a9b6.png)
 
 
-### INSTALASI GIT
-* Download *Git*, buka website resminya Git `(git-scm.com)`.
-* Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
-* Selamat, Git sudah terinstal di Windows. Untuk mencobanya,silahkan buka *CMD* atau *PowerShell*, kemudian ketik perintah
-
-``git --version``
-
-![photo_2020-10-14_02-36-53](https://user-images.githubusercontent.com/72790651/95907712-29266580-0dc6-11eb-819c-89f04a853fc8.jpg)
+  - Setelah itu lakukanlah verifikasi gambar, dan tekan pada bagian *'create account'*.
+  
+![Screenshot (13)](https://user-images.githubusercontent.com/72791245/96339906-aea95e80-10c1-11eb-8ecb-097af0c7dfee.png)
 
 
-### Menambahkan Global Config
-* `Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi ``user.name dan user.email``
-* konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
+  - Silahkan mengecek email yang sama dengan yang digunakan pada saat mendaftar tadi untuk melakukan verifikasi.
 
-* apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah `git commit`
-
-* Config Global Repository
-
-`$ git config --global user.name “nama_user"`
-
-`$ git config --global user.email “nama_user”`
+![step 4](https://user-images.githubusercontent.com/72791245/96339911-b36e1280-10c1-11eb-8f30-2b1b584d6bb8.jpg)
 
 
-### Perintah Dasar Git
+  - Setelah terdapat notif dari Github pada email kalian, segera lakukanlah verifikasi sebelum terjadi error (kadaluarsa).
 
-* `git init`, perintah untuk membuat repository local
-* `git add`, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
-* `git commit`, perintah untuk menyimpan perubahan kedalam database git.
-* `git push -u origin master`, perintah untuk mengirim perubahan pada repository local menuju server repository.
-* `git clone [url]`, perintah untuk membuat working directory yang diambil dari repositry sever.
-* `git remote add origin [url]`, perintah untuk menambahkan remote server/reopsitory server pada local repositry ``(working directory)``
-* `git pull`, perintah untuk mengambil/mendownload perubahan terbaru dari server repository ke local repository
+![step 5](https://user-images.githubusercontent.com/72791245/96339913-b9fc8a00-10c1-11eb-9027-7a51a50842df.jpg)
 
 
-### Membuat Reposiory Local
-
-* Buka direktory aktif, misal: *d:\labs_pemrograman1* (buka menggunakan Windows Explorer)
-* klik kanan pada direktory aktif tersebut, dan pilih menu *Git Bash*, sehingga muncul git bash commad
-* Buat direktory project praktikum pertama dengan nama *latihan1*
-``$ mkdir latihan1
-$ cd latihan1``
-* Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah *cd* ``(change directory)``
-* direktory aktif menjadi: **d:\labs_pemrograman1\latihan1
+SELESAI!! SELAMAT ANDA SUDAH TERDAFTAR..
+SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 
 
-### Membuat Reposiory Local
-
-* Jalankan perintah *git init*, untuk membuat repository local.
-`$ git init`
-* Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .*git*
-* Pada direktori tersebut, semua perubahan pada `working directory` akan disimpan.
 
 
-### Menambahkan File baru pada repository
-
-* Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
-* disini kita akan coba buat satu file bernama README.md (text file)
-`$ echo “# Latihan 1” >> README.md`
-* File *README.md* berhasil dibuat.
-
-![photo_2020-10-14_02-39-16](https://user-images.githubusercontent.com/72790651/95907983-92a67400-0dc6-11eb-8545-aebcbc6d1a09.jpg)
-
-### Menambahkan File baru pada repository
-
-* Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
-`$ git add README.md`
-* File *README.md* berhasil ditambahkan.
-
-![photo_2020-10-14_02-56-22](https://user-images.githubusercontent.com/72790651/95909668-14979c80-0dc9-11eb-8050-c8c3c0459298.jpg)
-
-### `Commit` (Menyimpan perubahan ke database)
-
-* Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit”
-`$ git commit -m “File pertama saya”`
-* Perubahan berhasil disimpan.
-
-![photo_2020-10-14_02-49-49](https://user-images.githubusercontent.com/72790651/95909911-7821ca00-0dc9-11eb-90af-688f07c62aae.jpg)
-
-### Membuat repository server
-
-* Server reopsitory yang akan kita gunakan adalah (http://github.com)
-* Anda harus membuat akun terlebih dahulu.
-* Pada laman github, klik tombol start a project, atau
-* Dari menu (icon +) klik New Repository
-
-![photo_2020-10-14_02-52-26](https://user-images.githubusercontent.com/72790651/95910140-cc2cae80-0dc9-11eb-9d1b-308a5332b20c.jpg)
-
-### Membuat repository server
-
-* Isi nama repositorynya, misal: labpy1.
-* lalu klik tombol Create repository
-
-![photo_2020-10-14_02-49-50](https://user-images.githubusercontent.com/72790651/95910427-42311580-0dca-11eb-8787-b8d9519b7682.jpg)
-
-### Menambahkan Remote Repository
-
-* Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
-* Untuk menambahkan remote repository server, gunakan perintah *git remote add origin [url]*
-`$ git remote add origin https://github.com/noval1802/LatihanVCS.git`
 
 
-### Push (Mengirim perubahan ke server)
-
-* Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
-`$ git push -u origin master`
-* Perintah ini akan meminta memasukkan username dan password pada akun github.com
-
-![photo_2020-10-14_02-49-50 (2)](https://user-images.githubusercontent.com/72790651/95910887-f29f1980-0dca-11eb-8663-e7689e4d25e3.jpg)
 
 
-### Melihat hasilnya pada server repository
-
-* Buka laman github.com, arahkan pada repositorinya.
-* Maka perubahan akan terlihat pada laman tersebut.
-
-![photo_2020-10-14_02-49-50 (3)](https://user-images.githubusercontent.com/72790651/95911083-309c3d80-0dcb-11eb-82da-32e3ffa60e6c.jpg)
 
 
-### Clone Repository
 
-* Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
-* Untuk melakukan cloning, gunakan perintah `git clone [url]`
+### CARA MEMBUAT REPOSITORY PADA GITHUB
 
-![photo_2020-10-14_02-49-50 (4)](https://user-images.githubusercontent.com/72790651/95911303-807b0480-0dcb-11eb-9987-3917daf42b1e.jpg)
+  - Bukalah profile kalian, kemudia pilih dibagian *start a project*, atau bisa juga dengan menekan lambang (+) pada bagian pojok kanan atas.
+  - Setelahnya kamu dapat pergi pada tulisan *'New Repository'*
 
-### Kegunaan file README.md
+![Screenshot (11)](https://user-images.githubusercontent.com/72791245/96339925-ce408700-10c1-11eb-97b5-2b252e5cee1e.png)
 
-* Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project yang kita buat, maka dapat menggunakan sebuah file yang bernama README.md
-* Pada file tersebut kita dapat membuat dokumentasi awal dari setiap project yang kita buat untuk memberikan penjelasan atau sekedar cara penggunaan dari aplikasi yang kita kembangkan.
-* Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.
-* untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url berikut: https://guides.github.com/features/masteringmarkdown/
 
+  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.
+
+![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96339928-d698c200-10c1-11eb-9508-9a982c05caf9.png)
+
+  - Pilih kolom yang bertuliskan 'README file' pada pilihan yang diberikan.
+  
+![Screenshot (15)](https://user-images.githubusercontent.com/72791245/96339934-df899380-10c1-11eb-888e-046162d7cb0a.png)
+
+
+ - Setelah itu arahkan kursor pada bagian *'Create Repository'*
+
+![Screenshot (14)](https://user-images.githubusercontent.com/72791245/96339969-2d060080-10c2-11eb-87b6-af8034dff691.png)
+
+
+ - Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
+
+![Screenshot (13)](https://user-images.githubusercontent.com/72906579/96259170-6cabea00-0fe7-11eb-9ce5-84d99854a36f.png)
+
+
+ - Jika ingin menulis sesuatu atau mengedit sebuah teks yang sudah ada sebelumnya pada lembar kerja, kalian bisa menekan gambar pensil seperti pada gambar dibawah ini.
+
+![Screenshot (14)](https://user-images.githubusercontent.com/72906579/96259174-6f0e4400-0fe7-11eb-817d-f89aee7f3614.png)
+
+
+ - Tekan pada kolom 'Commit Changes' jika kalian ingin menyimpan hasil kerja kalian ataupun setelah kalian melakukan perubahan pada lembar kerja kalian.
+ 
+ ![Screenshot (22)](https://user-images.githubusercontent.com/72906579/96267209-bdc0db80-0ff1-11eb-9a6c-32da7d9cbb17.png)
 
