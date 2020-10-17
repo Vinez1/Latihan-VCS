@@ -62,5 +62,5 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 
  - Tekan pada kolom 'Commit Changes' jika kalian ingin menyimpan hasil kerja kalian ataupun setelah kalian melakukan perubahan pada lembar kerja kalian.
  
- ![Screenshot (14)](https://user-images.githubusercontent.com/72791245/96346848-2da19580-10c8-11eb-865d-05de4ab40076.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/72791245/96347207-5dea3380-10ca-11eb-9846-7b0de61c2abc.png)
 
