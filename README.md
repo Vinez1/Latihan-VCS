@@ -34,9 +34,8 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 
 
 
-![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96346840-24182d80-10c8-11eb-85ea-c2b7cadcb2fb.png)
-![Screenshot (15)](https://user-images.githubusercontent.com/72791245/96346844-29757800-10c8-11eb-833e-d60c493e45ce.png)
-![Screenshot (14)](https://user-images.githubusercontent.com/72791245/96346848-2da19580-10c8-11eb-865d-05de4ab40076.png)
+
+
 
 
 
@@ -51,29 +50,17 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 ![Screenshot (11)](https://user-images.githubusercontent.com/72791245/96346837-1f537980-10c8-11eb-89b2-c9e8baf5ac2f.png)
 
 
-  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.
+  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
 
-
-  - Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
+![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96346840-24182d80-10c8-11eb-85ea-c2b7cadcb2fb.png)
   
-
-
-
-
-
-
-
-
-
-
-
-
+ 
  - Jika ingin menulis sesuatu atau mengedit sebuah teks yang sudah ada sebelumnya pada lembar kerja, kalian bisa menekan gambar pensil seperti pada gambar dibawah ini.
 
-
+![Screenshot (15)](https://user-images.githubusercontent.com/72791245/96346844-29757800-10c8-11eb-833e-d60c493e45ce.png)
 
 
  - Tekan pada kolom 'Commit Changes' jika kalian ingin menyimpan hasil kerja kalian ataupun setelah kalian melakukan perubahan pada lembar kerja kalian.
  
- 
+ ![Screenshot (14)](https://user-images.githubusercontent.com/72791245/96346848-2da19580-10c8-11eb-865d-05de4ab40076.png)
 
