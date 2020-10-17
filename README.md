@@ -45,34 +45,32 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
   - Bukalah profile kalian, kemudia pilih dibagian *start a project*, atau bisa juga dengan menekan lambang (+) pada bagian pojok kanan atas.
   - Setelahnya kamu dapat pergi pada tulisan *'New Repository'*
 
-![Screenshot (11)](https://user-images.githubusercontent.com/72791245/96339925-ce408700-10c1-11eb-97b5-2b252e5cee1e.png)
+
 
 
   - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.
 
-![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96339928-d698c200-10c1-11eb-9508-9a982c05caf9.png)
 
-  - Pilih kolom yang bertuliskan 'README file' pada pilihan yang diberikan.
+  - Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
   
-![Screenshot (15)](https://user-images.githubusercontent.com/72791245/96339934-df899380-10c1-11eb-888e-046162d7cb0a.png)
 
 
- - Setelah itu arahkan kursor pada bagian *'Create Repository'*
-
-![Screenshot (14)](https://user-images.githubusercontent.com/72791245/96339969-2d060080-10c2-11eb-87b6-af8034dff691.png)
 
 
- - Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
 
-![Screenshot (13)](https://user-images.githubusercontent.com/72906579/96259170-6cabea00-0fe7-11eb-9ce5-84d99854a36f.png)
+
+
+
+
+
 
 
  - Jika ingin menulis sesuatu atau mengedit sebuah teks yang sudah ada sebelumnya pada lembar kerja, kalian bisa menekan gambar pensil seperti pada gambar dibawah ini.
 
-![Screenshot (14)](https://user-images.githubusercontent.com/72906579/96259174-6f0e4400-0fe7-11eb-817d-f89aee7f3614.png)
+
 
 
  - Tekan pada kolom 'Commit Changes' jika kalian ingin menyimpan hasil kerja kalian ataupun setelah kalian melakukan perubahan pada lembar kerja kalian.
  
- ![Screenshot (22)](https://user-images.githubusercontent.com/72906579/96267209-bdc0db80-0ff1-11eb-9a6c-32da7d9cbb17.png)
+ 
 
