@@ -44,13 +44,13 @@ SELANJUTNYA ADALAH LANGKAH MEMBUAT REPOSITORY..
 
 ### CARA MEMBUAT REPOSITORY PADA GITHUB
 
-  - Bukalah profile kalian, kemudia pilih dibagian *start a project*, atau bisa juga dengan menekan lambang (+) pada bagian pojok kanan atas.
+  - Bukalah profile kalian, kemudian pilih dibagian *start a project*, atau bisa juga dengan menekan lambang (+) pada bagian pojok kanan atas.
   - Setelahnya kamu dapat pergi pada tulisan *'New Repository'*
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/72791245/96346837-1f537980-10c8-11eb-89b2-c9e8baf5ac2f.png)
 
 
-  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.Setelah mendapat tampilan seperti gambar dibawah, berarti Repository kalian sudah berhasil dibuat. dan kalian juga bisa tekan pada tulisan 'README' yang berwarna biru untuk membukanya.
+  - Tulislah judul yang kalian inginkan. Kalian'pun juga bisa mengatur Repository yang akan kalian buat menjadi Privasi ataupun Publik.
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/72791245/96346840-24182d80-10c8-11eb-85ea-c2b7cadcb2fb.png)
   
